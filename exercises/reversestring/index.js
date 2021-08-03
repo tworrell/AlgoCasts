@@ -15,3 +15,14 @@ function reverse(str) {
 }
 
 module.exports = reverse;
+
+
+
+/* Another way to solve
+reversed = ''
+for (let character of reversed) {
+    reversed = character + reversed
+}
+return reversed
+
+*/
