@@ -8,6 +8,20 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
-function reverseInt(n) {}
+//first I'm going to reverse a string
+function reverseStr(str) {
+    return [...str].reduce((accumalator, character) => 
+        character + accumalator, "")
+    
+}
+
+
+function reverseInt(n) {
+    let reverseNum = reverseStr(n.toString())
+    let finalReverse = parseInt(reverseNum) * Math.sign(n)
+
+    return finalReverse
+
+}
 
 module.exports = reverseInt;
