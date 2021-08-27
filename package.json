@@ -1,0 +1,19 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "jest test library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tworrell/AlgoCasts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tworrell/AlgoCasts/issues"
+  },
+  "homepage": "https://github.com/tworrell/AlgoCasts#readme"
+}
